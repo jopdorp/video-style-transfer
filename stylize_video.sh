@@ -76,7 +76,7 @@ python neural_style.py --video \
 --style_imgs_dir "${style_dir}" \
 --style_imgs "${style_filename}" \
 --end_frame "${num_frames}" \
---max_size "${max_size}" \
+--max_size "426" \
 --verbose;
 
 # Create video from output images.
